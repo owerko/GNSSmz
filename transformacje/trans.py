@@ -7,4 +7,5 @@ def trans_wgs84to2000(x, y):  # argumaty: dlugosc, szerokosc w stopniach
     return transform(inProj, outProj, x, y)
 
 
-print(trans_wgs84to2000(20, 50))
+if __name__ == '__main__':
+    print(trans_wgs84to2000(20, 50))
