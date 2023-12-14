@@ -24,7 +24,7 @@ if __name__ == '__main__':
     # print(f'Współrzędna Y(E): {y0:.3f}')
 
 
-    #Ex2: ECEF WGS84 [EPSG4978] to WGS84 [EPSG4326]
+    #Ex2: Earth-centered, Earth-fixed coordinate system WGS84 [EPSG4978] to WGS84 [EPSG4326]
     transformer2 = Transformer.from_crs("EPSG:4978", "EPSG:4326", always_xy=True)
 
     # Example coordinates in EPSG:4978
